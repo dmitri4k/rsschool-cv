@@ -10,10 +10,6 @@
 
 ---
 
-### Briefly About Myself:
-
----
-
 ### Skills and Proficiency:
 
 - HTML, CSS
@@ -24,10 +20,6 @@
 - Git, GitHub
 - VS Code
 - Adobe Photoshop
-
----
-
-### Code example:
 
 ---
 

@@ -10,11 +10,6 @@
 
 ---
 
-### Summary:
-
-
----
-
 ### Skills and Proficiency:
 
 - HTML, CSS
@@ -25,7 +20,6 @@
 - Git, GitHub
 - VS Code
 - Adobe Photoshop
-- Engineering
 
 ---
 

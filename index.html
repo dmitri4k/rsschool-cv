@@ -1,13 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
 
-</body>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary" class="nav-link">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#code" class="nav-link">Code</a>
+            </li>
+            <li class="nav-item">
+              <a href="#courses" class="nav-link">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#languages" class="nav-link">Languages</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container main-container">
+        <section class="section" id="profile">
+          <div class="center">
+            <img src="./assets/img/avatar.jpg" class="avatar" alt="my photo" />
+          </div>
+
+          <h1 class="section-title">Dmitrii Kazantsev</h1>
+          <h2 class="section-title">Junior Front-end Developer</h2>
+        </section>
+        <section class="section" id="profile">
+          <h2 class="section-title">Contact informantion</h2>
+
+          <ul>
+            <li class="contacts-list">Moscow, Russia</li>
+            <li class="contacts-list">
+              <span class="strong">Phone:</span>
+              +7 903 1100775
+            </li>
+            <li class="contacts-list">
+              <span class="strong">E-mail:</span>
+              mdsunknown@gmail.com
+            </li>
+            <li class="contacts-list">
+              <span class="strong">Telegram:</span>
+              @dollvdime
+            </li>
+            <li class="contacts-list">
+              <span class="strong">GitHub:</span>
+              dmitri4k
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="summary">
+          <h2 class="section-title">Summary</h2>
+          <p>
+            I like to study and learn something new especially about technology, science, economics.
+            My current job is system administator. I want to become full-stack web developer.
+          </p>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills and Proficiency</h2>
+          <ul>
+            <li>HTML, CSS</li>
+            <li>JavaScript Basics</li>
+            <li>Python Basics</li>
+            <li>Ruby On Rails Basics</li>
+            <li>Linux Basics</li>
+            <li>Git, GitHub</li>
+            <li>VS Code</li>
+            <li>Adobe Photoshop</li>
+          </ul>
+        </section>
+        <section class="section" id="code">
+          <h2 class="section-title">Code example</h2>
+          <div class="code-container">
+            <code>
+              <pre>
+function isPythagoreanTriple(integers) {
+  const [a, b, c] = integers.sort((a, b) => a - b);
+  return a ** 2 + b ** 2 === c ** 2
+}
+              </pre>
+            </code>
+          </div>
+        </section>
+        <section class="section" id="courses">
+          <h2 class="section-title">Courses</h2>
+          <ul>
+            <li>Python Excersizes on snakify.org (completed)</li>
+            <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+          </ul>
+        </section>
+        <section class="section" id="education">
+          <h2 class="section-title">Education</h2>
+          <p>Moscow State Technological University Stankin</p>
+        </section>
+        <section class="section" id="languages">
+          <h2 class="section-title">Languages</h2>
+          <ul>
+            <li>
+              <strong>English</strong>
+              - B1
+            </li>
+            <li>
+              <strong>Russian</strong>
+              - native
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container footer-container">
+        <p class="margin">© 2022</p>
+        <a href="https://github.com/dmitri4k" target="_blank">GitHub</a>
+        <a href="https://rs.school/js-stage0/" target="_blank"
+          ><img class="logo" src="https://rs.school/images/rs_school_js.svg" alt="RS Logo"
+        /></a>
+      </div>
+    </footer>
+  </body>
 </html>
